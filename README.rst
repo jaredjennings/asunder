@@ -11,6 +11,10 @@ Assumptions
 You are running Debian GNU/Linux unstable. (Others may work but I haven't
 tested them yet.)
 
+You have Morituri_ installed. 
+
+.. _Morituri: https://github.com/thomasvs/morituri
+
 Configuring
 -----------
 
