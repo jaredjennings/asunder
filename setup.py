@@ -32,5 +32,10 @@ setup(name='asunder',
         'Operating System :: POSIX :: Linux',
         'Topic :: Multimedia :: Sound/Audio :: CD Audio :: CD Ripping',
     ],
+    entry_points={
+        'console_scripts': [
+            'asunder=asunder.main:main',
+        ],
+    },
 )
 
