@@ -19,9 +19,9 @@ setup(name='asunder',
     install_requires=[
         'pyxdg',
         'sleekxmpp',
-        'morituri',
         'PyGObject',
         'dbus-python',
+        # We require morituri but it is not in PyPI, nor is it an egg.
     ],
     classifiers=[
         'License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)',
