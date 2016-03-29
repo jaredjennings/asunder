@@ -19,7 +19,7 @@ import logging
 import time
 import getopt
 import os.path
-from asunder.detect.via_udisks1 import disc_inserted_queue
+from asunder.detect.via_udisks2 import disc_inserted_queue
 from asunder.notify.via_sleekxmpp import notify_queue
 from multiprocessing import Process
 from asunder.do_rip import do_rip
